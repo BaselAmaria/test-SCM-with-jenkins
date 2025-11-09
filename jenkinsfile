@@ -32,11 +32,11 @@ pipeline {
     stages {
 
         stage('Initialize'){
-            steps(
+            steps{
                 script {
                     gv = load 'scripts.groovy'
                 }
-            )
+        }
         }
 
 
