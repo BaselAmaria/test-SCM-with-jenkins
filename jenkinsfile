@@ -12,7 +12,7 @@ pipeline {
 
             steps {
 
-                echo "Building Branch ${params.BRAMCH_VERSION}..."
+                echo "Building Branch ${params.BRANCH_VERSION}..."
 
                 // Add your build steps here
 
